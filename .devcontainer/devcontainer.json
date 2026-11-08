@@ -1,0 +1,8 @@
+{
+	"name": "Node.js",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:5-26-trixie",
+	"forwardPorts": [
+		3000
+	],
+	"postCreateCommand": "npm config set ignore-scripts true && npm config set audit true && npm config set min-release-age 3 && npm config set save-exact true"
+}
